@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: rgb(204, 241, 248);
+}
+
+nav.navbar {
+    display: flex;
+    justify-self: center;
+    background-color: rgb(30, 139, 139);
+    border: 3px solid black;
+    width: 85vw;
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+  }
+
+li {
+    float: left;
+  }
+  
+a {
+    display: flex;
+    
+   border: 3px groove black;
+   margin: 25px;
+    padding: 10px;
+    background-color: #a2e5f0;
+  }
+
+a:hover {
+    background-color: coral;
+}
