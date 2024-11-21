@@ -1,0 +1,84 @@
+body {
+    background-color: gainsboro;
+    font: 1.3rem sans-serif;
+  padding: 0.5em;
+  margin: 0;
+ 
+}
+
+h3 {
+    color: darkslategray;
+}
+
+div.form {
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    position: relative;
+    border: 5px double black;
+  width: 450px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 3em;
+  box-sizing: border-box;
+  background: burlywood;
+  display: grid;
+  grid-gap: 10px;
+
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 4px solid rgb(33, 22, 33);
+    margin: 10px;
+    padding: 5px;
+}
+
+tr {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+tr:first {
+    background-color: rgb(136, 188, 226);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(241, 234, 170);
+  }
+
+tr:hover {
+    background-color: rgb(229, 196, 152);
+}
+
+th > td {
+    border: 1px black;
+    column-width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    width: 200px;
+    background-color: rgb(170, 210, 244);
+}
+
+button:hover {
+    background-color: rgb(97, 229, 121);
+    width: 250px;
+}
+
+input {
+    background-color: azure;
+    width: 250px;
+}
+
+input:hover {
+    background-color:  rgb(170, 210, 244);
+   
+}
